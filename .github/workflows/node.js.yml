@@ -24,7 +24,7 @@ jobs:
         port: 22
         script: |
           # after login to server go to application folder
-          cd ~/ci-node-example
+          cd ~/ci
           # pull the changes from Github
           git pull origin main
           # to get the status and to check that everything is ok
