@@ -37,3 +37,5 @@ jobs:
           npm run apidoc
           # finally, restart the application using the updated version of it
           pm2 restart node-ci-example
+          
+          # trigger deployment
